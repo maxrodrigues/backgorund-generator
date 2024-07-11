@@ -24,4 +24,21 @@ class Race implements RaceInterface
     {
         return [];
     }
+
+    public function unusualHomeland(): array
+    {
+        return [
+            1 => 'Subterranêo',
+            2 => 'Montanhas',
+            3 => 'Planicie',
+            4 => 'Cidadela ou Vila',
+            5 => 'Cidade ou Metrópole',
+            6 => 'Floresta',
+            7 => 'Rio, Pantano',
+            8 => 'Deserto',
+            9 => 'Mar',
+            10 => 'Tundra',
+            11 => 'Outro plano',
+        ];
+    }
 }
